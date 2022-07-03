@@ -1,0 +1,23 @@
+//- layout.pug
+doctype html
+html
+  head
+    title  dance academy
+    block scripts
+    block style
+          
+      
+  body
+    nav#navbar.top 
+            ul
+                div#logo
+                 img(src="/static/logo2.png")
+                 | HDA
+                li #[a(href="") home]
+                li #[a(href="") about]
+                li #[a(href="") services]
+                li #[a(href="") class]
+                li #[a(href="/contact") contact us]
+    block content
+    footer#footer 
+            | copyright ©  2022 waqarhashim.com | all right reserved

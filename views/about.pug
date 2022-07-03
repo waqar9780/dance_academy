@@ -1,0 +1,56 @@
+extends base.pug
+
+block scripts
+    scripts(src="/static/index.js")
+
+
+block style 
+      style 
+        include ../static/style.css
+        include ../static/styleabout.css
+
+block content 
+        div.container
+            h1.about {we are developing a website}
+            p.about {im waqar hashim ,developing a website for fun,i have not intention to host my website,}
+            p.about {you can not visit on my website because this one is dark website}
+        div.about-section
+            h1 About Us Page
+            p Some text about who we are and what we do.
+            p Resize the browser window to see that this page is responsive by the way
+        h2 Our Team   
+        div.row
+            div.column
+               div.card
+                 img(src="/static/team1.jpg" alt="Jane")
+                 div.container
+                  h2 Jane Doe
+                  p.title 
+                       | CEO & Founder
+                  p Some text that describes me lorem ipsum ipsum lorem.
+                  p jane@example.com
+                  p(class="button")
+                       | Contact
+        
+            div.column
+               div.card
+                 img(src="/static/team1.jpg" alt="Jane" style="width:100%")
+                 div.container
+                  h2 Jane Doe
+                  p.title 
+                       | CEO & Founder
+                  p Some text that describes me lorem ipsum ipsum lorem.
+                  p jane@example.com
+                  p(class="button")
+        
+            div.column
+               div.card
+                 img(src="/static/team1.jpg" alt="Jane" style="width:100%")
+                 div.container
+                  h2 Jane Doe
+                  p.title 
+                       | CEO & Founder
+                  p Some text that describes me lorem ipsum ipsum lorem.
+                  p jane@example.com
+                  p(class="button")
+                       | Contact                 | Contact              

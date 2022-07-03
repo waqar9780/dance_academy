@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+            ul
+               div#logo
+                 img(src="/static/logo2.png")
+                 | HDA
+               li #[a(href="") home]
+               li #[a(href="") about]
+               li #[a(href="") services]
+               li #[a(href="") class]
+               li #[a(href="") contact us]
+    section#introsection 
+          div welcome in dance academy 
+          div.small  eat sleep dance repeat
+
+    section#missionsection 
+            h2 our mission 
+            div.card
+                  h3 dance perfection 
+                  div.card-box
+                        div.card-img
+                            img(src="/static/21.png") 
+                        div.card-content
+                            p this is the best dance academy     
+
+            div.card
+                  h3 dance the way you like
+                  div.card-box
+                        div.card-img
+                            img(src="/static/22.png") 
+                        div.card-content
+                            p this is the best dance academy  
+            div.card
+                  h3 expert teaching  
+                  div.card-box
+                        div.card-img
+                            img(src="/static/23.png") 
+                        div.card-content
+                            p this is the best dance academy      
+
+
+    section#sponserssection 
+          h3 our sponser
+          div#sponsers
+                img(src="/static/logo3.png",alt="sponser image",class="spimage")
+                img(src="/static/logo4.png",alt="sponser image",class="spimage")
+                img(src="/static/logo5.png",alt="sponser image",class="spimage")  
+                img(src="/static/logo6.png",alt="sponser image",class="spimage")
+
+    footer#footer 
+         |copyright ©  2022 waqarhashim.com | all right reserved                   
+    script
+      include ../static/index.js
